@@ -1,4 +1,7 @@
 ---
+# TODO: improve ssh hardening
+# hardening points: https://dev-sec.io/baselines/ssh/
+# also see: https://galaxy.ansible.com/dev-sec/ssh-hardening
 - name: Copy ssh public keys
   template:
     src: authorized_keys.j2
