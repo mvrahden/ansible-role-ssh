@@ -1,0 +1,32 @@
+galaxy_info:
+  author: Menno van Rahden
+  role_name: ssh
+  description: >
+    An Ansible role to configure SSH on debian based systems.
+
+  license: MIT
+
+  min_ansible_version: 2.2
+
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Raspbian
+      versions:
+        - all
+
+  galaxy_tags:
+    - ssh
+    - debian
+    - ubuntu
+    - raspbian
+    - raspberry
+    - raspberrypi
+    - network
+    - security
+
+dependencies: []
