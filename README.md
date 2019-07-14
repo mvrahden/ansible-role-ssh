@@ -1,4 +1,4 @@
-# ansible-k8s <!-- omit in toc -->
+# ansible-role-ssh <!-- omit in toc -->
 
 An [Ansible](https://www.ansible.com) role to configure SSH on debian based systems.
 
